@@ -1,0 +1,16 @@
+Día 1: Fase de configuración inicial
+Crear el archivo App.config para la conexión a la base de datos.
+Implementar la configuración básica de conexión a la base de datos.
+
+Día 2: Desarrollo del servidor TCP
+Crear la clase ServidorTCP.
+Configurar la recepción y envío de datos con los clientes.
+
+Día 3: Implementación del CRUD
+Implementar los métodos de guardar, obtener por ID, obtener todos los registros.
+
+Día 4: Implementación de funcionalidades adicionales
+Agregar funcionalidad de actualización de estado de registros en las tablas.
+
+Día 5: Pruebas y validación
+Realizar pruebas de integración y validación de los métodos CRUD.
