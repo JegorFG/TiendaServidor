@@ -24,12 +24,12 @@ namespace CapaEntidades
     public class Reserva
     {
         public int IdReserva { get; set; }
-        public Articulo_Sucursal ArticuloSucursal { get; set; }
+        public ArticuloSucursal ArticuloSucursal { get; set; }
         public Cliente Cliente { get; set; }
         public DateTime FechaReserva { get; set; }
 
         // Constructor parametrizado para inicializar todas las propiedades
-        public Reserva(int idReserva, Articulo_Sucursal articuloSucursal, Cliente cliente, DateTime fechaReserva)
+        public Reserva(int idReserva, ArticuloSucursal articuloSucursal, Cliente cliente, DateTime fechaReserva)
         {
             IdReserva = idReserva;
             ArticuloSucursal = articuloSucursal;

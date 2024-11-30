@@ -19,20 +19,20 @@ using System.Threading.Tasks;
 
 namespace CapaEntidades
 {
-    public class Articulo_Sucursal
+    public class ArticuloSucursal
     {
         public Sucursal Sucursal { get; set; } // Objeto Sucursal
         public Articulo Articulo { get; set; } // Objeto Articulo
         public int Cantidad { get; set; } // Cantidad de artículos asignados
 
-        public Articulo_Sucursal(Sucursal sucursal, Articulo articulo, int cantidad)
+        public ArticuloSucursal(Sucursal sucursal, Articulo articulo, int cantidad)
         {
             Sucursal = sucursal;
             Articulo = articulo;
             Cantidad = cantidad;
         }
 
-        public Articulo_Sucursal() { }
+        public ArticuloSucursal() { }
 
         public void RestarCantidad(int cantidad)
         {

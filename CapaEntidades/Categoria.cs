@@ -19,7 +19,7 @@ using System.Threading.Tasks;
 
 public class Categoria
 {
-    public int IdCategoria { get; set; }
+    public int Id { get; set; }
     public string Nombre { get; set; }
     public string Descripcion { get; set; }
 
@@ -29,7 +29,7 @@ public class Categoria
     // Constructor que acepta parámetros
     public Categoria(int idCategoria, string nombre, string descripcion)
     {
-        IdCategoria = idCategoria;
+        Id = idCategoria;
         Nombre = nombre;
         Descripcion = descripcion;
     }
