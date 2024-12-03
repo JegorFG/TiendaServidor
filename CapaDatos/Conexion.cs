@@ -18,6 +18,7 @@ namespace CapaDatos
             }
             catch (Exception ex)
             {
+                //connectionString = "Server=JEGOR\\SQLUNED;Database=TIENDAUNED;User Id=sa;Password=Tekkentag3@;TrustServerCertificate=True;";
                 throw new Exception("Error al obtener la cadena de conexión: " + ex.Message);
             }
         }

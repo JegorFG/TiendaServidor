@@ -1,0 +1,23 @@
+[33mcommit c4e55f4b68b9339c003b81bc72927f87d473744d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mconfiguracion-inicial[m[33m, [m[1;31morigin/configuracion-inicial[m[33m)[m
+Author: JegorFG <chuss17_2@hotmail.com>
+Date:   Fri Nov 29 22:20:50 2024 -0600
+
+    #7 Agrega implementación inicial de las entidades y conexión a la base de datos
+
+[33mcommit f23008c3210d21df48b72b129862eda868a0fefb[m
+Author: JegorFG <chuss17_2@hotmail.com>
+Date:   Thu Nov 28 22:52:29 2024 -0600
+
+    #7 Agrega implementación inicial de las entidades y conexión a la base de datos
+
+[33mcommit 5c7855e0df7037b286dcfb352c67e5c76a8ac56c[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: chuss <chuss@JEGOR>
+Date:   Thu Nov 28 17:35:10 2024 -0600
+
+    Agregar archivos de proyecto.
+
+[33mcommit 7f958c03fab16c4bbbfb00285983207bdd22a282[m
+Author: chuss <chuss@JEGOR>
+Date:   Thu Nov 28 17:35:08 2024 -0600
+
+    Agregue .gitattributes, .gitignore, README.md y LICENSE.txt.
