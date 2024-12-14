@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using CapaDatos.Interfaces;
+﻿using CapaDatos.Interfaces;
 using CapaEntidades;
 
 namespace CapaLogica

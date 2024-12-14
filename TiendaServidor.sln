@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapaDatos", "CapaDatos\Capa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUnitario", "TestUnitario\TestUnitario.csproj", "{86604FD0-675F-435F-B945-3472C544A3C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogica", "CapaLogica\CapaLogica.csproj", "{EC613DD9-3065-4CDF-8DDF-67ED19C4790B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapaLogica", "CapaLogica\CapaLogica.csproj", "{EC613DD9-3065-4CDF-8DDF-67ED19C4790B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaRed", "CapaRed\CapaRed.csproj", "{471D18BA-E77F-46CA-AF45-429694CEE28B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EC613DD9-3065-4CDF-8DDF-67ED19C4790B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC613DD9-3065-4CDF-8DDF-67ED19C4790B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC613DD9-3065-4CDF-8DDF-67ED19C4790B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471D18BA-E77F-46CA-AF45-429694CEE28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471D18BA-E77F-46CA-AF45-429694CEE28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471D18BA-E77F-46CA-AF45-429694CEE28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471D18BA-E77F-46CA-AF45-429694CEE28B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

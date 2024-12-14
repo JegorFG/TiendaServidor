@@ -7,12 +7,12 @@ namespace CapaDatos
     // Clase para gestionar las operaciones relacionadas con administradores.
     public class AdministradorDatos : IAdministradorRepository
     {
-        private readonly IConexion conexion;
+        private readonly IConexion _conexion;
 
         // Constructor que recibe la dependencia de la conexión.
         public AdministradorDatos(IConexion conexion)
         {
-            this.conexion = conexion;
+            this._conexion = conexion;
         }
 
         // Obtiene todos los administradores registrados en la base de datos.
@@ -20,7 +20,7 @@ namespace CapaDatos
         {
             var administradores = new List<Administrador>();
 
-            using (var conn = conexion.GetConnection())
+            using (var conn = _conexion.GetConnection())
             {
                 string query = "SELECT * FROM Administrador";
                 using (var cmd = new SqlCommand(query, conn))
@@ -50,7 +50,7 @@ namespace CapaDatos
         {
             Administrador administrador = null;
 
-            using (var conn = conexion.GetConnection())
+            using (var conn = _conexion.GetConnection())
             {
                 string query = "SELECT * FROM Administrador WHERE identificacion = @identificacion";
 
@@ -81,7 +81,7 @@ namespace CapaDatos
         // Agrega un nuevo administrador.
         public void AgregarAdministrador(Administrador administrador)
         {
-            using (var conn = conexion.GetConnection())
+            using (var conn = _conexion.GetConnection())
             {
                 string query = "INSERT INTO Administrador (identificacion, nombre, apellido1, apellido2, fec_nacimiento, fec_ingreso) " +
                            "VALUES (@Identificacion, @Nombre, @PrimerApellido, @SegundoApellido, @FechaNacimiento, @FechaIngreso)";
@@ -103,7 +103,7 @@ namespace CapaDatos
         // Elimina un administrador por su ID.
         public void EliminarAdministrador(int idAdministrador)
         {
-            using (var conn = conexion.GetConnection())
+            using (var conn = _conexion.GetConnection())
             {
                 string query = "DELETE FROM Administrador WHERE identificacion = @identificacion";
                 using (var cmd = new SqlCommand(query, conn))
@@ -118,7 +118,7 @@ namespace CapaDatos
         // Verifica si un administrador existe en la base de datos.
         public bool Existe(int idAdministrador)
         {
-            using (var conn = conexion.GetConnection())
+            using (var conn = _conexion.GetConnection())
             {
                 string query = "SELECT COUNT(*) FROM Administrador WHERE id = @id";
                 using (var cmd = new SqlCommand(query, conn))

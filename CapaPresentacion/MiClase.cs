@@ -1,6 +1,4 @@
-﻿using System;
-using System.Configuration;
-using System.Windows.Forms;
+﻿using System.Configuration;
 
 public class MiClase
 {
